@@ -27,5 +27,5 @@ func Run() {
 		ActionName: "зачислен",
 	}
 
-	fmt.Println(a.Student() + " " + a.ActionName)
+	fmt.Println("Задание L1.1: " + "\n" + a.Student() + " " + a.ActionName + "\n")
 }
